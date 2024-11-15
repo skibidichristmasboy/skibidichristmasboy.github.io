@@ -21,6 +21,8 @@
         h1 {
             font-size: 4em;
             margin-top: 50px;
+            color: #ffffff;
+            text-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000;
         }
         h2 {
             font-size: 2.5em;
@@ -56,6 +58,12 @@
         @keyframes glow {
             0% { text-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000; }
             100% { text-shadow: 0 0 25px #ffff00, 0 0 50px #ffff00; }
+        }
+        .warning-message {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #ff9900;
+            font-weight: bold;
         }
         .call-to-action {
             margin-top: 40px;
@@ -148,6 +156,10 @@
             Skibidi Christmas is here!
         </div>
 
+        <div class="warning-message">
+            <p>This website will sadly only exist until November 15, 2025.</p>
+        </div>
+
         <div class="call-to-action">
             <p>Join the holiday fun:</p>
             <a href="https://diddysmansion.vip/" class="cta-button" target="_blank">Visit my main website</a>
@@ -156,6 +168,7 @@
     </div>
 
     <div class="footer">
+        <p>Owned by <span style="color: #ff4d94; font-weight: bold;">Spheruz</span></p>
         <p>Visit us again at <a href="http://skibidi.christmas" target="_blank">skibidi.christmas</a> for more festive fun!</p>
     </div>
 </body>
