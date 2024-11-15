@@ -6,7 +6,7 @@
     <title>Skibidi Christmas</title>
     <style>
         body {
-            background-color: #f0f8ff;
+            background-color: #ffefe4;
             font-family: 'Arial', sans-serif;
             color: white;
             margin: 0;
@@ -16,37 +16,37 @@
         }
         h1, h2 {
             text-align: center;
-            color: #ff4d94;
+            color: #d40000;
         }
         h1 {
-            font-size: 3.5em;
+            font-size: 4em;
             margin-top: 50px;
         }
         h2 {
-            font-size: 2.2em;
+            font-size: 2.5em;
             margin-top: 10px;
-            color: #ff7f7f;
+            color: #008000;
         }
         .container {
             text-align: center;
             padding: 20px;
-            background-color: rgba(255, 204, 203, 0.9);
+            background-color: rgba(255, 0, 0, 0.8);
             border-radius: 15px;
             margin: 50px auto;
             width: 80%;
             max-width: 700px;
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
         }
         .merry-message {
-            font-size: 1.8em;
+            font-size: 2em;
             margin-top: 20px;
-            color: #b30059;
+            color: #ffcc00;
         }
         .skibidi-text {
-            font-size: 2.5em;
+            font-size: 3em;
             font-weight: bold;
-            color: #ff3385;
-            background-color: #fff;
+            color: #ffffff;
+            background-color: #008000;
             padding: 10px;
             border-radius: 10px;
             display: inline-block;
@@ -54,30 +54,34 @@
             animation: glow 1.5s ease-in-out infinite alternate;
         }
         @keyframes glow {
-            0% { text-shadow: 0 0 10px #ff4d94, 0 0 20px #ff4d94; }
-            100% { text-shadow: 0 0 20px #ff7f7f, 0 0 40px #ff7f7f; }
+            0% { text-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000; }
+            100% { text-shadow: 0 0 25px #ffff00, 0 0 50px #ffff00; }
         }
         .call-to-action {
             margin-top: 40px;
-            font-size: 1.5em;
+            font-size: 1.8em;
         }
         .cta-button {
-            background-color: #ff4d94;
+            background-color: #008000;
             color: white;
             padding: 15px 25px;
-            font-size: 1.2em;
+            font-size: 1.5em;
             border-radius: 10px;
             text-decoration: none;
-            margin: 10px;
+            margin: 15px;
             display: inline-block;
             transition: background-color 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
         }
         .cta-button:hover {
-            background-color: #ff3385;
+            background-color: #d40000;
+        }
+        .cta-button:active {
+            background-color: #ffcc00;
         }
         .footer {
             text-align: center;
-            font-size: 1.2em;
+            font-size: 1.5em;
             margin-top: 50px;
             color: #ff4d94;
         }
@@ -97,11 +101,12 @@
         .snowflakes span {
             position: absolute;
             top: -10px;
-            width: 10px;
-            height: 10px;
+            width: 15px;
+            height: 15px;
             background-color: #ffffff;
             border-radius: 50%;
             animation: snow 10s linear infinite;
+            opacity: 0.8;
         }
         @keyframes snow {
             0% { transform: translateY(-10px); }
@@ -114,7 +119,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png') repeat;
+            background: url('https://www.transparenttextures.com/patterns/zigzag-light.png') repeat;
             z-index: -1;
             opacity: 0.1;
         }
@@ -125,12 +130,12 @@
     <div class="background-pattern"></div>
 
     <div class="snowflakes">
-        <span style="left: 5%; animation-duration: 12s;"></span>
-        <span style="left: 20%; animation-duration: 15s;"></span>
-        <span style="left: 35%; animation-duration: 18s;"></span>
-        <span style="left: 50%; animation-duration: 14s;"></span>
-        <span style="left: 65%; animation-duration: 20s;"></span>
-        <span style="left: 80%; animation-duration: 17s;"></span>
+        <span style="left: 5%; animation-duration: 15s; animation-delay: 0s;"></span>
+        <span style="left: 20%; animation-duration: 17s; animation-delay: 2s;"></span>
+        <span style="left: 35%; animation-duration: 18s; animation-delay: 1s;"></span>
+        <span style="left: 50%; animation-duration: 14s; animation-delay: 3s;"></span>
+        <span style="left: 65%; animation-duration: 19s; animation-delay: 1s;"></span>
+        <span style="left: 80%; animation-duration: 16s; animation-delay: 0s;"></span>
     </div>
 
     <div class="container">
