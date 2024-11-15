@@ -6,7 +6,8 @@
     <title>Skibidi Christmas</title>
     <style>
         body {
-            background-color: #ffefe4;
+            background: linear-gradient(to bottom, #005500, #004400) fixed, url('https://www.transparenttextures.com/patterns/dark-stripes.png');
+            background-size: cover;
             font-family: 'Arial', sans-serif;
             color: white;
             margin: 0;
@@ -16,23 +17,22 @@
         }
         h1, h2 {
             text-align: center;
-            color: #d40000;
         }
         h1 {
             font-size: 4em;
             margin-top: 50px;
             color: #ffffff;
-            text-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000;
+            text-shadow: 0 0 20px #ff0000, 0 0 40px #ff4500;
         }
         h2 {
             font-size: 2.5em;
             margin-top: 10px;
-            color: #008000;
+            color: #ffcc00;
         }
         .container {
             text-align: center;
             padding: 20px;
-            background-color: rgba(255, 0, 0, 0.8);
+            background-color: rgba(0, 128, 0, 0.9);
             border-radius: 15px;
             margin: 50px auto;
             width: 80%;
@@ -42,13 +42,13 @@
         .merry-message {
             font-size: 2em;
             margin-top: 20px;
-            color: #ffcc00;
+            color: #ffff99;
         }
         .skibidi-text {
             font-size: 3em;
             font-weight: bold;
             color: #ffffff;
-            background-color: #008000;
+            background-color: #ff0000;
             padding: 10px;
             border-radius: 10px;
             display: inline-block;
@@ -56,8 +56,8 @@
             animation: glow 1.5s ease-in-out infinite alternate;
         }
         @keyframes glow {
-            0% { text-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000; }
-            100% { text-shadow: 0 0 25px #ffff00, 0 0 50px #ffff00; }
+            0% { text-shadow: 0 0 20px #ff0000, 0 0 40px #ff4500; }
+            100% { text-shadow: 0 0 30px #ffff00, 0 0 60px #ffff00; }
         }
         .warning-message {
             font-size: 1.5em;
@@ -70,7 +70,7 @@
             font-size: 1.8em;
         }
         .cta-button {
-            background-color: #008000;
+            background-color: #ff4500;
             color: white;
             padding: 15px 25px;
             font-size: 1.5em;
@@ -79,10 +79,10 @@
             margin: 15px;
             display: inline-block;
             transition: background-color 0.3s ease;
-            box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+            box-shadow: 0 0 10px rgba(255, 69, 0, 0.7);
         }
         .cta-button:hover {
-            background-color: #d40000;
+            background-color: #008000;
         }
         .cta-button:active {
             background-color: #ffcc00;
@@ -114,29 +114,16 @@
             background-color: #ffffff;
             border-radius: 50%;
             animation: snow 10s linear infinite;
-            opacity: 0.8;
+            opacity: 0.9;
         }
         @keyframes snow {
             0% { transform: translateY(-10px); }
             100% { transform: translateY(100vh); }
         }
-        /* Extra decorations */
-        .background-pattern {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('https://www.transparenttextures.com/patterns/zigzag-light.png') repeat;
-            z-index: -1;
-            opacity: 0.1;
-        }
     </style>
 </head>
 <body>
     <!-- Background Pattern -->
-    <div class="background-pattern"></div>
-
     <div class="snowflakes">
         <span style="left: 5%; animation-duration: 15s; animation-delay: 0s;"></span>
         <span style="left: 20%; animation-duration: 17s; animation-delay: 2s;"></span>
@@ -148,7 +135,7 @@
 
     <div class="container">
         <h1>Welcome to Skibidi Christmas!</h1>
-        <h2>Where Christmas meets Skibidi Fun</h2>
+        <h2>I goon on skibidi!</h2>
         <div class="merry-message">
             <p>Merry Christmas and a Happy New Year!</p>
         </div>
