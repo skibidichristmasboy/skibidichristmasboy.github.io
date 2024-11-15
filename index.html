@@ -12,6 +12,7 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
+            position: relative;
         }
         h1, h2 {
             text-align: center;
@@ -29,11 +30,12 @@
         .container {
             text-align: center;
             padding: 20px;
-            background-color: #ffcccb;
+            background-color: rgba(255, 204, 203, 0.9);
             border-radius: 15px;
             margin: 50px auto;
             width: 80%;
             max-width: 700px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
         }
         .merry-message {
             font-size: 1.8em;
@@ -105,9 +107,23 @@
             0% { transform: translateY(-10px); }
             100% { transform: translateY(100vh); }
         }
+        /* Extra decorations */
+        .background-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png') repeat;
+            z-index: -1;
+            opacity: 0.1;
+        }
     </style>
 </head>
 <body>
+    <!-- Background Pattern -->
+    <div class="background-pattern"></div>
+
     <div class="snowflakes">
         <span style="left: 5%; animation-duration: 12s;"></span>
         <span style="left: 20%; animation-duration: 15s;"></span>
@@ -129,7 +145,7 @@
 
         <div class="call-to-action">
             <p>Join the holiday fun:</p>
-            <a href="https://diddysmansion.vip/" class="cta-button" target="_blank">Visit Diddy's Mansion VIP</a>
+            <a href="https://diddysmansion.vip/" class="cta-button" target="_blank">Visit my main website</a>
             <a href="https://www.youtube.com/@RealCheatSphere" class="cta-button" target="_blank">Subscribe to My YouTube</a>
         </div>
     </div>
