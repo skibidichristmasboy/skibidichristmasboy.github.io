@@ -11,17 +11,18 @@
             color: white;
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
         }
         h1, h2 {
             text-align: center;
             color: #ff4d94;
         }
         h1 {
-            font-size: 3em;
+            font-size: 3.5em;
             margin-top: 50px;
         }
         h2 {
-            font-size: 2em;
+            font-size: 2.2em;
             margin-top: 10px;
             color: #ff7f7f;
         }
@@ -32,10 +33,10 @@
             border-radius: 15px;
             margin: 50px auto;
             width: 80%;
-            max-width: 600px;
+            max-width: 700px;
         }
         .merry-message {
-            font-size: 1.5em;
+            font-size: 1.8em;
             margin-top: 20px;
             color: #b30059;
         }
@@ -48,16 +49,40 @@
             border-radius: 10px;
             display: inline-block;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px #ff4d94, 0 0 20px #ff4d94; }
+            100% { text-shadow: 0 0 20px #ff7f7f, 0 0 40px #ff7f7f; }
+        }
+        .call-to-action {
+            margin-top: 40px;
+            font-size: 1.5em;
+        }
+        .cta-button {
+            background-color: #ff4d94;
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff3385;
         }
         .footer {
             text-align: center;
-            font-size: 1em;
+            font-size: 1.2em;
             margin-top: 50px;
             color: #ff4d94;
         }
         .footer a {
             color: #ff3385;
             text-decoration: none;
+            font-weight: bold;
         }
         .snowflakes {
             position: absolute;
@@ -77,12 +102,8 @@
             animation: snow 10s linear infinite;
         }
         @keyframes snow {
-            0% {
-                transform: translateY(-10px);
-            }
-            100% {
-                transform: translateY(100vh);
-            }
+            0% { transform: translateY(-10px); }
+            100% { transform: translateY(100vh); }
         }
     </style>
 </head>
@@ -104,6 +125,12 @@
         </div>
         <div class="skibidi-text">
             Skibidi Christmas is here!
+        </div>
+
+        <div class="call-to-action">
+            <p>Join the holiday fun:</p>
+            <a href="https://diddysmansion.vip/" class="cta-button" target="_blank">Visit Diddy's Mansion VIP</a>
+            <a href="https://www.youtube.com/@RealCheatSphere" class="cta-button" target="_blank">Subscribe to My YouTube</a>
         </div>
     </div>
 
