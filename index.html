@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skibidi Christmas</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #ff4d94;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 50px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 10px;
+            color: #ff7f7f;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffcccb;
+            border-radius: 15px;
+            margin: 50px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        .merry-message {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #b30059;
+        }
+        .skibidi-text {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ff3385;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+        }
+        .footer {
+            text-align: center;
+            font-size: 1em;
+            margin-top: 50px;
+            color: #ff4d94;
+        }
+        .footer a {
+            color: #ff3385;
+            text-decoration: none;
+        }
+        .snowflakes {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+        }
+        .snowflakes span {
+            position: absolute;
+            top: -10px;
+            width: 10px;
+            height: 10px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: snow 10s linear infinite;
+        }
+        @keyframes snow {
+            0% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="snowflakes">
+        <span style="left: 5%; animation-duration: 12s;"></span>
+        <span style="left: 20%; animation-duration: 15s;"></span>
+        <span style="left: 35%; animation-duration: 18s;"></span>
+        <span style="left: 50%; animation-duration: 14s;"></span>
+        <span style="left: 65%; animation-duration: 20s;"></span>
+        <span style="left: 80%; animation-duration: 17s;"></span>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to Skibidi Christmas!</h1>
+        <h2>Where Christmas meets Skibidi Fun</h2>
+        <div class="merry-message">
+            <p>Merry Christmas and a Happy New Year!</p>
+        </div>
+        <div class="skibidi-text">
+            Skibidi Christmas is here!
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Visit us again at <a href="http://skibidi.christmas" target="_blank">skibidi.christmas</a> for more festive fun!</p>
+    </div>
+</body>
+</html>
