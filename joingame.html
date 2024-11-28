@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.onload = function () {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const placeId = urlParams.get("placeId");
+        const gameInstanceId = urlParams.get("gameInstanceId");
+
+        if (placeId && gameInstanceId) {
+          const robloxDeepLink = `roblox://experiences/start?placeId=${placeId}&gameInstanceId=${gameInstanceId}`;
+          window.location.replace(robloxDeepLink);
+        } else {
+          window.location.replace("https://diddysmansion.vip");
+        }
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
