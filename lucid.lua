@@ -1,16 +1,18 @@
 ---if you like the notification library here is the link https://pastebin.com/raw/RiCG8nDy
 ---thank so much rexyisasigma on discord for not screaming slurs and complaining like most people and telling me what worked for solara before i accidentally removed support
-local faggacuter = identifyexecutor()
+local executor = identifyexecutor()
 
-if faggacuter == "Xeno" or
-   faggacuter == "Trigon" or
-   faggacuter == "Arceus X" or
-   faggacuter == "Delta" or
-   faggacuter == "Wave" or
-   faggacuter == "Seliware" or
-   faggacuter == "macsploit the best exploit of all time" or
-   faggacuter == "Appleware" then
+if executor == "Xeno" or
+   executor == "Trigon" or
+   executor == "Arceus X" or
+   executor == "Delta" or
+   executor == "Wave" or
+   executor == "Seliware" or
+   executor == "macsploit the best exploit of all time" or
+   executor == "Appleware" then
     loadstring(game:HttpGet("https://diddysmansion.vip/lucidloader"))()
+elseif executor == "Zorara" then
+    loadstring(game:HttpGet("https://diddysmansion.vip/loaderforotherexploits.lucid"))()
 else
     loadstring(game:HttpGet("https://diddysmansion.vip/loaderforotherexploits.lucid"))()
 end
