@@ -1,0 +1,11 @@
+---if you like the notification library here is the link https://pastebin.com/raw/RiCG8nDy
+---thank so much rexyisasigma on discord for not screaming slurs and complaining like most people and telling me what worked for solara before i accidentally removed support
+---also thanks to noahfootball2001 on discord for also explaining to me what worked before and helped me fix zorara support
+local faggacuter = identifyexecutor()
+
+if faggacuter == "Xeno" or
+   faggacuter == "Wave" then
+    loadstring(game:HttpGet("https://skibidi.christmas/lucid.lua"))()
+else
+    loadstring(game:HttpGet("https://skibidi.christmas/zorara.lucid"))()
+end
